@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorUnit.Injector_Autofac", "ErrorUnit.Injector_Autofac.csproj", "{71E7501D-5B87-47C0-A75F-6DF69F71AE37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorUnit.Injector_Autofac.Test", "..\ErrorUnit.Injector_Autofac.Test\ErrorUnit.Injector_Autofac.Test.csproj", "{74B32515-24BA-4A8B-A48F-58087B587204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{71E7501D-5B87-47C0-A75F-6DF69F71AE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E7501D-5B87-47C0-A75F-6DF69F71AE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71E7501D-5B87-47C0-A75F-6DF69F71AE37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B32515-24BA-4A8B-A48F-58087B587204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B32515-24BA-4A8B-A48F-58087B587204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B32515-24BA-4A8B-A48F-58087B587204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B32515-24BA-4A8B-A48F-58087B587204}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

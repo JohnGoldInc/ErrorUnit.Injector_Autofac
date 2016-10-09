@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ErrorUnit.Injector_Autofac</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>johngoldinc</authors>
+    <owners>johngoldinc</owners>
+    <projectUrl>https://github.com/JohnGoldInc/ErrorUnit.Injector_Autofac</projectUrl>
+    <iconUrl>http://johngoldinc.com/img/ErrorUnitLargeLogo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Compatibility library for ErrorUnit to work with Autofac Dependency Injector.</description>
+    <releaseNotes>Version 1.0</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>ErrorUnit Autofac di ioc</tags>
+  </metadata>
+</package>
