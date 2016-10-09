@@ -20,6 +20,7 @@ namespace ErrorUnit.Injector_Autofac
             catch (Exception ex)
             {
                 ErrorUnitInjector.ErrorUnitCentral.ThrowErrorStack(ex);
+                throw;
             }
             finally
             {
