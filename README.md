@@ -7,10 +7,15 @@ i.e.
 
 `
 ErrorUnitCentral._Injector = new ErrorUnitInjector();
+
 var builder = ErrorUnitCentral._LinkInjector(new ContainerBuilder());
+
 builder.RegisterType<SomeType>()
+
        .As<ISomeInterface>()
+
        .EnableErrorUnitInterceptor();
+
 var container = builder.Build();
 `
 http://johngoldinc.com/Help/html/T_ErrorUnit_Interfaces_IInjector.htm
