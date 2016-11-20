@@ -35,7 +35,7 @@ namespace ErrorUnit.Injector_Autofac
         {
             container = ioc as ContainerBuilder;
             ErrorUnitInjector.ErrorUnitCentral = errorUnitCentral;
-            container.Register(c => new ErrorUnitInterceptor());
+            container.Register(c => errorUnitCentral.ErrorUnitInterceptor);
             return ioc;
         }
     }
